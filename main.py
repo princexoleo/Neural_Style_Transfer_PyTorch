@@ -16,6 +16,13 @@ import style
 
 ###########
 
+# if not os.path.exists("savel_models"):
+#     # run download_savel_models,pu
+
+if not os.path.exists("images/output-images"):
+    os.mkdir("images/output-images")
+
+
 
 @st.cache
 def load_image(image_file):
